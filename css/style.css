@@ -16,10 +16,12 @@
 }
 
 body{
-    background-image: url(imagens/Entrada.jpg);
+    background-image: url(../imagens/Entrada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header{

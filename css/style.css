@@ -62,6 +62,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid white;
+    border-radius: 10px;
     margin: auto;
     min-width:400px ;
     max-width: 1000px;

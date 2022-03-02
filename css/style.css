@@ -16,7 +16,9 @@
 }
 
 body{
-    background-color: rgb(7, 7, 7);
+    background-image: url(imagens/Entrada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
 }
 
@@ -58,9 +60,6 @@ nav > a:hover {
 }
 
 main {
-    background-image: url(imagens/Entrada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border: 2px solid white;
     margin: auto;
     min-width:400px ;

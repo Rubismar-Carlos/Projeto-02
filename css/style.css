@@ -16,14 +16,13 @@
 }
 
 body{
-    background-image: url(../imagens/Entrada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: auto;
+}
+
+body main {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 header{
     background-repeat: no-repeat; 
     text-align: center;
@@ -62,6 +61,9 @@ nav > a:hover {
 }
 
 main {
+    background-image: url(../imagens/Entrada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 2px solid white;
     margin: auto;
     min-width:400px ;

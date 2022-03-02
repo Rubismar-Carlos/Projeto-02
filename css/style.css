@@ -60,9 +60,7 @@ nav > a:hover {
 }
 
 main {
-    background-image: url(../imagens/Entrada.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     border: 2px solid white;
     border-radius: 10px;
     margin: auto;
@@ -96,6 +94,7 @@ main > article > h1.autentico{
     text-align: center;
     text-decoration: underline;
     font-size: 2em;
+    padding-bottom: 30px;
 
 }
 
@@ -113,6 +112,7 @@ main > article > div{
     padding: 20px;
     padding-bottom: 58%;
     position: relative;
+    border: 2px solid white;
 }
 
 main > article > div > video {

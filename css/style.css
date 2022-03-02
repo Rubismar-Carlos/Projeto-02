@@ -63,7 +63,7 @@ main {
     background-size: cover;
     border: 2px solid white;
     margin: auto;
-    min-width:300px ;
+    min-width:400px ;
     max-width: 1000px;
    padding: 20px;   
 }

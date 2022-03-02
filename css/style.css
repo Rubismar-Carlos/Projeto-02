@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rye&display=swap');
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte-destaque: 'Rye', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica;
+    --fonte-bebas: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: rgb(7, 7, 7);
+    margin: auto;
+}
+
+header{
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+header > img {
+    top: 0;
+    left: 0;
+  max-width: 100%;
+}
+
+nav {
+    text-align: center;
+    font-family: var(--fonte-bebas);
+    font-size: 1.2em;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    color: yellow;
+    background-color: rgba(211, 211, 211, 0.61);
+    transition-duration: 1s;   
+    padding-left: 2px;
+}
+
+main {
+    background-image: url(imagens/Entrada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin: auto;
+    min-width:300px ;
+    max-width: 1000px;
+   padding: 20px;   
+}
+
+main > h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+main > article > h1 {
+    color: white;
+    padding-top: 40px;
+    font-family: var(--fonte-destaque);
+}
+
+main > article > h2 {
+    color: white;
+    padding-top: 40px;
+    font-family: var(--fonte-destaque);
+}
+
+main > article > h1.autentico{
+    color: white;
+    padding-top: 40px;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+
+}
+
+main > article > p {
+    color: white;
+    text-indent: 20px;
+    font-family: var(--fonte-bebas);
+    line-height: 3em;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+main > article > div{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+main > article > div > video {
+    position: absolute;
+    left: 5%;
+    height: 90%;
+    top: 5%;
+    width: 90%;
+
+}
+
+main strong {
+    color: rgb(240, 240, 56);
+    text-decoration: underline;
+}
+
+
+main img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+main > div > video{
+    height: 400px;
+   width: 1000px;
+    
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+
+   
+    

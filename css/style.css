@@ -64,7 +64,6 @@ main {
     border: 2px solid white;
     border-radius: 10px;
     margin: auto;
-    min-width:300px ;
     max-width: 1000px;
    padding: 20px;   
 }
@@ -102,8 +101,8 @@ main > article > p {
     color: white;
     text-indent: 20px;
     font-family: var(--fonte-bebas);
-    line-height: 3em;
-    font-size: 1.5em;
+    line-height: 2em;
+    font-size: 1.2em;
     text-align: justify;
 }
 
